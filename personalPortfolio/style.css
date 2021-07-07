@@ -1,0 +1,129 @@
+
+#header {
+    color: #847878;
+    font-weight: lighter;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    background-image: url('headerBG.jpg');
+    border: 2px solid aliceblue;
+    padding: 30px;
+    display:grid;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: aliceblue;
+	display:inline-table;
+	width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+nav li {
+	display: table-cell 
+}
+li a {
+	display: block;
+	color: #847878;
+	text-align: center;
+	padding: 30px 30px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+}
+#intro {
+    align-items: center;
+    width: 50%;
+    height: 60%;
+    border-radius: 10%;
+}
+.new-developer {
+    color: #847878;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+#title {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center; 
+    color: #847878;
+ 
+}
+.image-1 {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 500px;
+    border-width: 5px;
+    border-radius: 2%;
+    padding: 10px;
+    margin-left: -900px;
+}
+.card-1 {
+    background: peachpuff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 500px;
+    width: 350px;
+    padding: 25px;
+    
+}
+.hello {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+}
+.image-2 {
+    position:relative;
+    left: 500px;
+    border: 2px solid aliceblue;
+    border-width: 5px;
+    border-radius: 2%;
+    padding: 5px;
+    margin: 0;
+}
+.image-3 {
+    position:relative;
+    left: 500px;
+    border: 2px solid aliceblue;
+    border-width: 5px;
+    padding: 5px;
+    margin: 0;
+}
+.image-4 {
+    position:relative;
+    left: 500px;
+    border: 2px solid aliceblue;
+    border-width: 5px;
+    padding: 5px;
+    margin: 0;
+}
+p {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+form {
+    align-items: center;
+    text-align: center;
+}
+.submit {
+    align-items: center;
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+}
+@media only screen and (min-resolution: 150dpi) {
+    body {
+        font-size: 12px;
+    }
+}
